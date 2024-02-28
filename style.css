@@ -19,4 +19,52 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.menu {
+    list-style: none;
+    color: white;
+    background-color: #602e2e;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 1.5em 1.5em;
+}
+
+.menu a:hover {
+    background-color: #d65454;
+}
+
+header {
+    overflow: auto;
+    background-color: #c53a3a;
+}
+
+section, footer {
+    overflow: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.aboutme, .practice, .driver, .course, .hobbies {
+    overflow: auto;
+    background-color: #F8C7C7;
+}
+
+.education, .languages, .knowledge, .skills, .images, .social {
+    overflow: auto;
+    background-color: #F8D8D8;
 }
